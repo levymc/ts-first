@@ -11,6 +11,7 @@ export default async function Home(req: Request, res: Response) {
   
     logger.info("Teste Info")
     logger.error("Teste Error")
+    logger.warn("Teste Warn")
   
     await sleep(1000)
   
@@ -18,7 +19,7 @@ export default async function Home(req: Request, res: Response) {
     const time = endTime - startTime;
   
     res.json({
-      response,
-      time: time + "ms", 
+        response,
+        time: time + "ms", 
     });
 }

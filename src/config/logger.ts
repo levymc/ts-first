@@ -30,6 +30,12 @@ function createLogger(loggerName: string) {
         case 'pino':
         return pino({
             level: 'info',
+            base: null, // aqui remove todos os atributos do JSON que não estao configurados abaixo
+            formatters: {
+                level: (label) => ({ level: label }),
+                msg: (msg: string) => ({ msg: msg }),
+                time: (time : string) => ({ time: time.toString() }),
+            },
         })
         default:
         throw new Error(`Logger ${loggerName} não suportado.`)
