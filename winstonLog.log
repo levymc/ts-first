@@ -10,3 +10,18 @@
 {"level":"error","message":"Teste Error"}
 {"level":"info","message":"Teste Info"}
 {"level":"error","message":"Teste Error"}
+{"level":"info","message":"Teste Info"}
+{"level":"error","message":"Teste Error"}
+{"level":"warn","message":"Teste Warn"}
+{"level":"info","message":"Start"}
+{"level":"info","message":"End: [object Object]"}
+{"level":"info","message":"Teste Info"}
+{"level":"error","message":"Teste Error"}
+{"level":"warn","message":"Teste Warn"}
+{"level":"info","message":"Start"}
+{"level":"info","message":"End: undefined"}
+{"level":"info","message":"Teste Info","timestamp":"2023-09-04T15:38:54.116Z"}
+{"level":"error","message":"Teste Error","timestamp":"2023-09-04T15:38:54.127Z"}
+{"level":"warn","message":"Teste Warn","timestamp":"2023-09-04T15:38:54.128Z"}
+{"level":"info","message":"Start","timestamp":"2023-09-04T15:38:54.128Z"}
+{"level":"info","message":"End: undefined","timestamp":"2023-09-04T15:38:55.134Z"}

@@ -13,7 +13,9 @@ export default async function Home(req: Request, res: Response) {
     logger.error("Teste Error")
     logger.warn("Teste Warn")
   
+    const teste = logger.info("Start")
     await sleep(1000)
+    logger.info("End: " + teste.message)
   
     const endTime = new Date().getTime();
     const time = endTime - startTime;

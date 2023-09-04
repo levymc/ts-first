@@ -1,0 +1,5 @@
+{"name":"my-app","hostname":"levy-Q325UA","pid":124365,"level":30,"msg":"Teste Info","time":"2023-09-04T15:35:39.636Z","v":0}
+{"name":"my-app","hostname":"levy-Q325UA","pid":124365,"level":50,"msg":"Teste Error","time":"2023-09-04T15:35:39.640Z","v":0}
+{"name":"my-app","hostname":"levy-Q325UA","pid":124365,"level":40,"msg":"Teste Warn","time":"2023-09-04T15:35:39.640Z","v":0}
+{"name":"my-app","hostname":"levy-Q325UA","pid":124365,"level":30,"msg":"Start","time":"2023-09-04T15:35:39.640Z","v":0}
+{"name":"my-app","hostname":"levy-Q325UA","pid":124365,"level":30,"msg":"End: undefined","time":"2023-09-04T15:35:40.645Z","v":0}

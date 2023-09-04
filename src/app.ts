@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 import router from './index.routes';
 import cors from 'cors'
 
-const indexRoutes = require('./index.routes');
 
 dotenv.config()
 
