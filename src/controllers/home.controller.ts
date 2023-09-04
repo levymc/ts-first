@@ -1,10 +1,8 @@
 import { Request, Response } from 'express';
 import logger from '../config/logger';
 import sleep from '../utils/sleep';
-import pino from 'pino';
-import bunyanLogger from '../config/bunyanLogger';
 
-const pinoLogger = pino();
+
 
 
 export default async function Home(req: Request, res: Response) {
@@ -13,17 +11,9 @@ export default async function Home(req: Request, res: Response) {
     }
     const startTime = new Date().getTime();
   
-    //winston
     logger.info("Teste Info")
     logger.error("Teste Error")
   
-    //bunyan
-    bunyanLogger.info("Teste Info")
-    bunyanLogger.error("Teste Error")
-  
-    //pino
-    pinoLogger.info("Teste Info")
-    pinoLogger.error("Teste Error")
   
     await sleep(1000)
   
