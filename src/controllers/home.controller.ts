@@ -3,8 +3,6 @@ import logger from '../config/logger';
 import sleep from '../utils/sleep';
 
 
-
-
 export default async function Home(req: Request, res: Response) {
     const response = {
       message: 'Hello World'
@@ -14,12 +12,10 @@ export default async function Home(req: Request, res: Response) {
     logger.info("Teste Info")
     logger.error("Teste Error")
   
-  
     await sleep(1000)
   
     const endTime = new Date().getTime();
     const time = endTime - startTime;
-  
   
     res.json({
       response,
