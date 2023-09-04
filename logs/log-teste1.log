@@ -2,10 +2,8 @@
 > ts-first@1.0.0 dev
 > ts-node-dev --respawn --transpile-only ./src/app.ts
 
-[INFO] 12:38:50 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.1, typescript ver. 5.2.2)
+[INFO] 12:55:39 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.1, typescript ver. 5.2.2)
 Server is listening at http://localhost:5005
-{"level":"info","message":"Teste Info","timestamp":"2023-09-04T15:38:54.116Z"}
-{"level":"error","message":"Teste Error","timestamp":"2023-09-04T15:38:54.127Z"}
-{"level":"warn","message":"Teste Warn","timestamp":"2023-09-04T15:38:54.128Z"}
-{"level":"info","message":"Start","timestamp":"2023-09-04T15:38:54.128Z"}
-{"level":"info","message":"End: undefined","timestamp":"2023-09-04T15:38:55.134Z"}
+{"level":"info","time":1693842943662,"msg":"Teste Info"}
+{"level":"error","time":1693842943663,"msg":"Teste Error"}
+{"level":"warn","time":1693842943663,"msg":"Teste Warn"}

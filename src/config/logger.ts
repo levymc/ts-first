@@ -7,6 +7,8 @@ dotenv.config()
 
 const LOGGER = process.env.LOGGER || 'pino'
 
+const initial = Date.now()
+
 function createLogger(loggerName: string) {
     switch (loggerName) {
         case 'winston':
@@ -38,6 +40,7 @@ function createLogger(loggerName: string) {
                         level: (label) => ({ level: label }),
                         msg: (msg: string) => ({ msg: msg }),
                   },
+                //   timestamp: () => `,"timestamp":"${new Date(Date.now()).toISOString()}"`,
                 });
         default:
         throw new Error(`Logger ${loggerName} não suportado.`)
